@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #1e3c72, #2a5298, #00c9ff, #92fe9d);
+    height: 100vh;
+    border-radius: 5px;
+    margin: 1em 1em;
+}
+
+.color-selection {
+    padding: 1em;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: .5em;
+}
+
+select {
+    width: 100%;
+    height: 4vh;
+}
+
+button, select, input {
+    font-weight: bold;
+    color: white;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px black;
+    cursor: pointer;
+}
+
+option{
+    color:black;
+}
+
+.scheme-pallete{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.color-scheme {
+    display: flex;
+    justify-content: center;
+    gap:.1em;
+}
+
+.color-box {
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    width: 160px;
+    height: 300px;
+}
+
+
